@@ -1,0 +1,81 @@
+{
+    "encode": {},
+    "hidden": {
+        "group": {
+            "neuron": {
+                "model": "gemini-2.0-flash-thinking-exp-01-21",
+                "infer_type": "Google"
+            }
+        },
+        "skeleton": {
+            "single": {
+                "model": "gemini-2.0-flash-thinking-exp-01-21",
+                "infer_type": "Google"
+            },
+            "concat": {
+                "model": "gemini-2.0-flash-thinking-exp-01-21",
+                "infer_type": "Google"
+            }
+        },
+        "digest": {
+            "single": {
+                "model": "gemini-2.0-flash-thinking-exp-01-21",
+                "infer_type": "Google"
+            },
+            "merge": {
+                "model": "gemini-2.0-flash-thinking-exp-01-21",
+                "infer_type": "Google"
+            }
+        },
+        "skeleton_refinement": {
+            "cluster": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google"
+            },
+            "convolution": {
+                "modify": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google"
+                },
+                "convolution_kernel": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google"
+                },
+                "eval": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google",
+                    "max_score": 10
+                }
+            },
+            "refine": {
+                "modify": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google"
+                },
+                "refine": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google"
+                },
+                "eval": {
+                    "model": "gemini-2.0-flash-thinking-exp-01-21",
+                    "infer_type": "Google",
+                    "max_score": 10
+                }
+            }
+        }
+    },
+    "decode": {
+        "orchestra": {
+            "model": "gemini-2.0-pro-exp-02-05",
+            "infer_type": "Google"
+        },
+        "polish": {
+            "model": "gemini-2.0-flash-thinking-exp-01-21",
+            "infer_type": "Google"
+        },
+        "chart": {
+            "model": "gemini-2.0-flash-thinking-exp-01-21",
+            "infer_type": "Google"
+        }
+    }
+}
